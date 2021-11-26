@@ -24,22 +24,22 @@ namespace _110_1Quiz2
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
-        /// tb_Date 控制項。
+        /// tb_CTEL 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tb_Date;
+        protected global::System.Web.UI.WebControls.TextBox tb_CTEL;
 
         /// <summary>
-        /// rev_Date 控制項。
+        /// rev__CTEL 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator rev_Date;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator rev__CTEL;
 
         /// <summary>
         /// btn_Submit 控制項。
