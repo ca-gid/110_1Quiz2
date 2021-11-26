@@ -10,6 +10,11 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:TextBox ID="tb_Date" runat="server"></asp:TextBox>
+            <asp:RegularExpressionValidator ID="rev_Date" runat="server" ErrorMessage="不符合格式" 
+                ControlToValidate="tb_Date" ValidationExpression=""></asp:RegularExpressionValidator><br />
+            <asp:Button ID="btn_Submit" runat="server" Text="送出"  OnClick="btn_Submit_Click"/><br />
+            <asp:Label ID="lb_Msg" runat="server" Text=""></asp:Label>
         </div>
     </form>
 </body>
